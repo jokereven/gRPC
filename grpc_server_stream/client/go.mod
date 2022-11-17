@@ -1,4 +1,4 @@
-module hello_world_client
+module client
 
 go 1.18
 

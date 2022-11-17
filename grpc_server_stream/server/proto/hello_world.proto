@@ -1,6 +1,6 @@
 syntax = "proto3"; // 版本声明, 使用Protocol Buffers v3版本
 
-option go_package = "hello_world_client/proto";  // 指定生成的Go代码在你项目中的导入路径
+option go_package = "server/proto";  // 指定生成的Go代码在你项目中的导入路径
 
 package proto; // 包名
 
@@ -8,6 +8,9 @@ package proto; // 包名
 service Greeter {
     // SayHello 方法
     rpc SayHello (HelloRequest) returns (HelloResponse) {}
+
+    // server return the stream data
+    rpc LotsOfReplies(HelloRequest) returns (stream HelloResponse);
 }
 
 // 请求消息

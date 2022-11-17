@@ -3,3 +3,11 @@ go 1.18
 use ./hello_world/hello_world_client
 
 use ./hello_world/hello_world_server
+
+use ./grpc_server_stream/server
+
+use ./grpc_server_stream/client
+
+use ./grpc_client_stream/s
+
+use ./grpc_client_stream/c
