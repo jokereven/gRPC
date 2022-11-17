@@ -1,0 +1,5 @@
+go 1.18
+
+use ./hello_world/hello_world_client
+
+use ./hello_world/hello_world_server
