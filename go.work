@@ -11,3 +11,7 @@ use ./grpc_server_stream/client
 use ./grpc_client_stream/s
 
 use ./grpc_client_stream/c
+
+use ./grpc_both_way_stream/ser
+
+use ./grpc_both_way_stream/cli

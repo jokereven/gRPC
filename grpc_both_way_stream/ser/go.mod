@@ -1,4 +1,4 @@
-module server
+module ser
 
 go 1.18
 
