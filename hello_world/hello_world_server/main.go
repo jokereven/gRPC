@@ -24,7 +24,7 @@ func main() {
 	// listen 8080 port
 	lis, err := net.Listen("tcp", ":8000")
 	if err != nil {
-		fmt.Printf("listen 7890 port failed, err %v", err)
+		fmt.Printf("listen 8000 port failed, err %v", err)
 		return
 	}
 	s := grpc.NewServer()                     // 创建gRPC服务器
