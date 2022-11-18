@@ -15,3 +15,15 @@ use ./grpc_client_stream/c
 use ./grpc_both_way_stream/ser
 
 use ./grpc_both_way_stream/cli
+
+use ./metadata/mc
+
+use ./metadata/ms
+
+use ./grpc_code/code_client
+
+use ./grpc_code/code_server
+
+use ./grpc_tls/tls_client
+
+use ./grpc_tls/tls_server
