@@ -27,3 +27,5 @@ use ./grpc_code/code_server
 use ./grpc_tls/tls_client
 
 use ./grpc_tls/tls_server
+
+use ./bookstore
